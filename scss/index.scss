@@ -1,6 +1,20 @@
 @use 'base';
 @use 'functions' as *;
 @use 'mixins' as *;
+@use 'variables' as *;
+@use 'sass:map';
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: rem-calc(10);
+}
+
+.flex-item {
+  width: rem-calc(200);
+  height: rem-calc(200);
+}
 
 .title {
   @include typography('display-lg', 'bold');
@@ -8,20 +22,25 @@
 
 .title-1 {
   color: get-color('brand', '400');
+  background-color: map.get($colors, 'Gray');
 }
 
 .title-2 {
   color: get-color('warning', '600');
+  background-color: map.get($colors, 'Brand');
 }
 
 .title-3 {
   color: get-color('error', '500');
+  background-color: map.get($colors, 'Eror');
 }
 
 .title-4 {
   color: get-color('success', '700');
+  background-color: map.get($colors, 'Warning');
 }
 
 .title-5 {
   color: get-color('gray', '600');
+  background-color: map.get($colors, 'Success');
 }
