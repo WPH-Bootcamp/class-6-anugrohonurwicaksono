@@ -3,7 +3,7 @@ $black: #000;
 
 // add the $colors map here (2 dimensional map)
 $colors: (
-  'Gray': (
+  'gray': (
     '25': #fcfcfd,
     '50': #f9fafb,
     '100': #f2f4f7,
@@ -18,7 +18,7 @@ $colors: (
     '950': #0c111d,
   ),
 
-  'Brand': (
+  'brand': (
     '25': #fcfaff,
     '50': #f9f5ff,
     '100': #f4ebff,
@@ -33,7 +33,7 @@ $colors: (
     '950': #2c1c5f,
   ),
 
-  'Eror': (
+  'eror': (
     '25': #fffbfa,
     '50': #fef3f2,
     '100': #fee4e2,
@@ -48,7 +48,7 @@ $colors: (
     '950': #55160c,
   ),
 
-  'Warning': (
+  'warning': (
     '25': #fffcf5,
     '50': #fffaeb,
     '100': #fef0c7,
@@ -63,7 +63,7 @@ $colors: (
     '950': #4e1d09,
   ),
 
-  'Success': (
+  'success': (
     '25': #f6fef9,
     '50': #ecfdf3,
     '100': #dcfae6,
@@ -72,7 +72,7 @@ $colors: (
     '400': #47cd89,
     '500': #17b26a,
     '600': #079455,
-    '700': #067647,
+    git '700': #067647,
     '800': #085d3a,
     '900': #074d31,
     '950': #053321,
